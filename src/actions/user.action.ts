@@ -27,6 +27,7 @@ export async function syncUser() {
         image: user.imageUrl,
       },
     });
+    revalidatePath('/')
     return dbUser;
   } catch (error) {
     console.log("Error in syncUser", error);
