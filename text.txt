@@ -1,0 +1,4 @@
+1. npm i prisma --save-dev    
+2. npm i @prisma/client    
+3. npx prisma init 
+---
